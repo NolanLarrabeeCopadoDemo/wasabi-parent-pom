@@ -1,0 +1,1 @@
+# wasabi-parent-pom

@@ -1,0 +1,21 @@
+{
+  "configs": [
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "dorman-parent-pom",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+    "exportedResources": [
+        "pom.xml"
+        ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}

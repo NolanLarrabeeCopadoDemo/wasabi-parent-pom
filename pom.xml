@@ -72,7 +72,7 @@
 		<munit.version>2.3.14</munit.version>
 	</properties>
 	<dependencies>
-<!--		<dependency>
+		<dependency>
 			<groupId>${wasabi.groupId}</groupId>
 			<artifactId>common-error-handler</artifactId>
 			<version>${common-error-handler.version}</version>
@@ -83,7 +83,7 @@
 			<artifactId>mule-apikit-module</artifactId>
 			<version>${mule-apikit-module.version}</version>
 			<classifier>mule-plugin</classifier>
-		</dependency> -->
+		</dependency>
 <!-- 		<dependency>
 			<groupId>${wasabi.groupId}</groupId>
 			<artifactId>wasabi-audit</artifactId>

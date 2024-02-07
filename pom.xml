@@ -64,7 +64,7 @@
 <!-- 		<wasabi-audit.version>1.0.6</wasabi-audit.version> -->
 		<json-logger.version>2.1.0</json-logger.version>
 		<log4j2-appender.version>0.9.24</log4j2-appender.version>
-<!-- 		<api-error-handler.version>6.1.0</api-error-handler.version> -->
+ 		<api-error-handler.version>6.1.0</api-error-handler.version>
 
 		<!-- Mule Runtime -->
 		<app.runtime>4.4.0</app.runtime>

@@ -68,7 +68,8 @@
 
 		<!-- Mule Runtime -->
 		<app.runtime>4.4.0</app.runtime>
-		<mule.maven.plugin.version>3.8.0</mule.maven.plugin.version>
+		<!--Updated the below line, it was 3.8.0-->
+		<mule.maven.plugin.version>3.4.2</mule.maven.plugin.version>
 		<munit.version>2.3.14</munit.version>
 	</properties>
 	<dependencies>

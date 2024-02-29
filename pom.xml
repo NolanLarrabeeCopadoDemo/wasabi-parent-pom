@@ -124,7 +124,7 @@
 								<properties>
 									<mule.env>${mule.env}</mule.env>
 									<api.autodiscovery.id>${api.autodiscovery.id}</api.autodiscovery.id>
-									<property.key>${property.key}</property.key>
+									<property.key>kbr3b?HTWEsCPK</property.key>
 									<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com</anypoint.platform.analytics_base_uri>
 									<anypoint.platform.platform_base_uri>https://anypoint.mulesoft.com/apiplatform</anypoint.platform.platform_base_uri>
 									<anypoint.platform.coreservice_base_uri>https://anypoint.mulesoft.com/accounts</anypoint.platform.coreservice_base_uri>

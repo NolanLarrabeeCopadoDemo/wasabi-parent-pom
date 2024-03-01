@@ -92,53 +92,6 @@
 			<classifier>mule-plugin</classifier>
 		</dependency> -->
 	</dependencies>
-	<profiles>
-		<profile>
-			<id>cloudHub</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.mule.tools.maven</groupId>
-						<artifactId>mule-maven-plugin</artifactId>
-						<version>${mule.maven.plugin.version}</version>
-						<extensions>true</extensions>
-						<configuration>
-							<cloudHubDeployment>
-								<uri>https://anypoint.mulesoft.com</uri>
-                     						<muleVersion>${runtime_version}</muleVersion>
-								<connectedAppClientId>${clientid}</connectedAppClientId>
-								<connectedAppClientSecret>${clientsecret}</connectedAppClientSecret>
-                      						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-                      						<applicationName>${appname}</applicationName>
-								<environment>${environment}</environment>
-                      						<workers>${workerCount}</workers>
-                      						<workerType>${workerType}</workerType>
-								<region>${mule.region}</region>
-                      						<objectStoreV2>true</objectStoreV2>
-								<persistentQueues>${mule.persistentQueues}</persistentQueues>
-								<businessGroup>${mule.businessGroup}</businessGroup>
-								<skip>${mule.skip}</skip>
-								<deploymentTimeout>${mule.deploymentTimeout}</deploymentTimeout>
-								<skipDeploymentVerification>${skipDeploymentVerification}</skipDeploymentVerification>
-								<deploymentTimeout>${mule.deploymentTimeout}</deploymentTimeout>
-								<properties>
-									<mule.env>${mule.env}</mule.env>
-									<api.autodiscovery.id>${api.autodiscovery.id}</api.autodiscovery.id>
-									<property.key>${property.key}</property.key>
-									<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com</anypoint.platform.analytics_base_uri>
-									<anypoint.platform.platform_base_uri>https://anypoint.mulesoft.com/apiplatform</anypoint.platform.platform_base_uri>
-									<anypoint.platform.coreservice_base_uri>https://anypoint.mulesoft.com/accounts</anypoint.platform.coreservice_base_uri>
-									<anypoint.platform.contracts_base_uri>https://anypoint.mulesoft.com/apigateway/ccs</anypoint.platform.contracts_base_uri>
-									<anypoint.platform.client_id>${business.group.client.id}</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>${business.group.client.secret}</anypoint.platform.client_secret>
-								</properties>
-							</cloudHubDeployment>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 	<build>
 		<finalName>${finalName}</finalName>
 		<plugins>

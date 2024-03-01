@@ -129,8 +129,8 @@
 									<anypoint.platform.platform_base_uri>https://anypoint.mulesoft.com/apiplatform</anypoint.platform.platform_base_uri>
 									<anypoint.platform.coreservice_base_uri>https://anypoint.mulesoft.com/accounts</anypoint.platform.coreservice_base_uri>
 									<anypoint.platform.contracts_base_uri>https://anypoint.mulesoft.com/apigateway/ccs</anypoint.platform.contracts_base_uri>
-									<anypoint.platform.client_id>${business.group.client.id}</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>${business.group.client.secret}</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>d4542a4af7c54913a013755d613faa31</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>984fd4bBC6a74f458F7fae4212DbD345</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
 						</configuration>
